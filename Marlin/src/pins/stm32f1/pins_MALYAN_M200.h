@@ -34,7 +34,8 @@
 #endif
 
 // Prevents hanging from an extra watchdog init
-#define DISABLE_WATCHDOG_INIT
+//Need to be commented out to prevent boot loop.
+//#define DISABLE_WATCHDOG_INIT 
 
 // Assume Flash EEPROM
 #if NO_EEPROM_SELECTED
